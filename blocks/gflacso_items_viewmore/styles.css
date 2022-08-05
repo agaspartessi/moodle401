@@ -1,0 +1,64 @@
+.block.block_gflacso_items_viewmore .content{
+	padding-bottom: 24px;
+}
+
+.block.block_gflacso_items_viewmore .content .gflacso_items_item .title{
+	font-size:14px;
+	font-weight: bold;
+}
+
+.block.block_gflacso_items_viewmore .content .gflacso_items_item .sml:not(.description) {
+	clear:both;
+}
+
+.block.block_gflacso_items_viewmore .content .gflacso_items_item:not(:first-of-type) {
+	border-top: 1px solid #ccc;
+	padding-top:10px;
+	margin-top:10px;
+	clear:both;
+}
+
+.block.block_gflacso_items_viewmore .content .gflacso_items_item .sml {
+	margin-bottom:10px;
+}
+
+.block.block_gflacso_items_viewmore .content .gflacso_items_container .seeall {
+	margin-top:20px;
+}
+
+.block_gflacso_items_viewmore .content .seemoreless{
+	float:right;
+	clear:both;
+	margin-bottom: 10px;
+}
+
+.block_gflacso_items_viewmore .content .no-overflow {
+	padding: 0 5px 0 5px;
+}
+
+.block_gflacso_items_viewmore .content {
+	height: auto;
+	max-width: 100%;
+}
+
+.block_gflacso_items_viewmore .content img {
+	border-radius:12px;
+	-mox-border-radius:12px;
+	-webkit-border-radius:12px;
+	height: auto;
+	max-width: 100%;
+}
+
+.block_gflacso_items_viewmore .content img.img {
+	float:right;
+	border-radius:100px;
+	-mox-border-radius:100px;
+	-webkit-border-radius:100px;
+	height:40px;
+	width:40px;
+}
+
+
+
+
+

@@ -1,0 +1,449 @@
+
+
+.block_gflacso_comunicacion hr{
+	display:block !important;
+	margin:10px 0px !important;
+}
+
+.block_gflacso_comunicacion a{
+	margin-bottom: 5px;
+	font-size: 14px;
+	display: block;
+}
+
+.block_gflacso_comunicacion a:hover{
+	background-color: transparent;
+}
+
+/* Social links */
+
+.block_gflacso_comunicacion .social_links {
+	min-height:52px;
+}
+
+.block_gflacso_comunicacion .social_links a{
+	background-size:28px;
+	background-repeat: no-repeat;
+	-webkit-transition: all .3s ; /* Safari and Chrome */
+	-moz-transition: all .3s ; /* Firefox */
+	-ms-transition: all .3s ; /* IE 9 */
+	-o-transition: all .3s ; /* Opera */
+	transition: all .3s ;
+}
+
+.block_gflacso_comunicacion .social_links.horizontal a span{
+	display:none;
+}
+
+.block_gflacso_comunicacion .social_links.vertical a span{
+	min-height: 14px;
+	display: block;
+}
+
+.block_gflacso_comunicacion .social_links.horizontal a{
+	padding: 16px;
+	margin-left: 3px;
+	background-position: center;
+}
+
+.block_gflacso_comunicacion .social_links.vertical a{
+	float:none;
+	padding: 8px 0 7px 37px;
+	margin-left:2px;
+	background-position:0px center;
+}
+
+.block_gflacso_comunicacion .social_links.horizontal.izq a{
+	float:left;
+}
+
+.block_gflacso_comunicacion .social_links.horizontal.der a{
+	float:right;
+}
+
+.block_gflacso_comunicacion .social_links.horizontal a:hover{
+	background-size:32px;
+	background-color: transparent;
+}
+
+.block_gflacso_comunicacion .social_links a.facebook,
+.block_gflacso_comunicacion .additional_links a.facebook{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/fb_icon_common]]);
+}
+.svg .block_gflacso_comunicacion  .social_links a.facebook,
+.svg .block_gflacso_comunicacion  .additional_links a.facebook{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/fb_icon_common]]);
+}
+
+.block_gflacso_comunicacion  .social_links a.skype,
+.block_gflacso_comunicacion  .additional_links a.skype{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/skype_icon_common]]);
+}
+.svg .block_gflacso_comunicacion  .social_links a.skype,
+.svg .block_gflacso_comunicacion  .additional_links a.skype{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/skype_icon_common]]);
+}
+
+.block_gflacso_comunicacion  .social_links a.twitter,
+.block_gflacso_comunicacion  .additional_links a.twitter{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/tw_icon_common]]);
+}
+
+.svg .block_gflacso_comunicacion  .social_links a.twitter,
+.svg .block_gflacso_comunicacion  .additional_links a.twitter{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/tw_icon_common]]);
+}
+
+.block_gflacso_comunicacion .social_links a.blog,
+.block_gflacso_comunicacion .additional_links a.blog{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/blog_icon_common]]);
+}
+.svg .block_gflacso_comunicacion .social_links a.blog,
+.svg .block_gflacso_comunicacion .additional_links a.blog{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/blog_icon_common]]);
+}
+
+.block_gflacso_comunicacion .social_links a.instagram,
+.block_gflacso_comunicacion .additional_links a.instagram{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/instagram_icon]]);
+}
+.svg .block_gflacso_comunicacion .social_links a.instagram,
+.svg .block_gflacso_comunicacion .additional_links a.instagram2{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/instagram_icon]]);
+}
+
+.block_gflacso_comunicacion .social_links.horizontal a.instagram:hover{
+	background-size:33px;
+}
+
+.block_gflacso_comunicacion .social_links a.instagram{
+	background-size:31px;
+}
+
+/* Aditional links */
+
+.block_gflacso_comunicacion .additional_links .description{
+	font-size: 14px;
+	margin: 10px 0px;
+	display: block;
+}
+
+.block_gflacso_comunicacion  .additional_links  a{
+	display:block;
+	padding: 8px 0 7px 39px;
+	background-size:29px;
+	font-size: 14px;
+	background-repeat:no-repeat;
+	margin-bottom:5px;
+	background-position:0px 3px;
+	margin-left: 2px;
+	min-height:17px;
+}
+
+.block_gflacso_comunicacion  .additional_links a.mayor,
+.block_gflacso_comunicacion  .additional_links a.punto{
+	background-position: 12px 10px;
+	background-size:14px;
+}
+
+.block_gflacso_comunicacion  .additional_links a.punto.azul{
+	background-image: url([[pix:block_gflacso_comunicacion|logos/fa-circle_azul]]);
+}
+
+.block_gflacso_comunicacion  .additional_links a.punto.gris{
+	background-image: url([[pix:block_gflacso_comunicacion|logos/fa-circle_gris]]);
+}
+
+.block_gflacso_comunicacion  .additional_links a.punto.naranja{
+	background-image: url([[pix:block_gflacso_comunicacion|logos/fa-circle_naranja]]);
+}
+
+.block_gflacso_comunicacion  .additional_links a.mayor.azul{
+	background-image: url([[pix:block_gflacso_comunicacion|logos/fa-chevron-right_azul]]);
+}
+
+.block_gflacso_comunicacion  .additional_links a.mayor.gris{
+	background-image: url([[pix:block_gflacso_comunicacion|logos/fa-chevron-right_gris]]);
+}
+
+.block_gflacso_comunicacion  .additional_links a.mayor.naranja{
+	background-image: url([[pix:block_gflacso_comunicacion|logos/fa-chevron-right_naranja]]);
+}
+
+.block_gflacso_comunicacion  .additional_links a.cafe{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/cafe]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links a.cafe{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/cafe]]);
+}
+
+.block_gflacso_comunicacion  .additional_links a.foro_naranja{
+	
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/foro_nar]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links a.foro_naranja{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/foro_nar]]);
+}
+
+.block_gflacso_comunicacion  .additional_links a.foro_verde{
+	
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/foro_ver]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links a.foro_verde{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/foro_ver]]);
+}
+
+.block_gflacso_comunicacion  .additional_links a.link.azul,
+.block_gflacso_comunicacion  .additional_links a.link{
+	
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/link_external_azul]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links a.link.azul,
+.svg .block_gflacso_comunicacion  .additional_links a.link{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/link_external_azul]]);
+}
+
+.block_gflacso_comunicacion  .additional_links a.link.verde{
+	
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/link_external_verde]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links a.link.verde{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/link_external_verde]]);
+}
+
+.block_gflacso_comunicacion  .additional_links a.link.naranja{
+	
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/link_external_naranja]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links a.link.naranja{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/link_external_naranja]]);
+}
+
+.block_gflacso_comunicacion  .additional_links a.contacto{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/correo_secretario_nar]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links a.contacto{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/correo_secretario_nar]]);
+}
+
+.block_gflacso_comunicacion  .additional_links a.profesores{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/sala_profes]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links a.profesores{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/sala_profes]]);
+}
+
+
+
+.block_gflacso_comunicacion  .additional_links a.encuesta{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/encuesta_opinion]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links a.encuesta{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/encuesta_opinion]]);
+}
+
+.block_gflacso_comunicacion  .additional_links a.practica{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/sala_practica]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links a.practica{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/sala_practica]]);
+}
+
+.block_gflacso_comunicacion  .additional_links a.profesores{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/espacio_docente]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links a.profesores{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/sala_profes]]);
+}
+
+.block_gflacso_comunicacion  .additional_links  a.video{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/video]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links  a.video{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/video]]);
+} 
+
+.block_gflacso_comunicacion  .additional_links  a.conferencia{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/mapa-personas]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links a.conferencia{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/mapa-personas]]);
+}
+
+.block_gflacso_comunicacion  .additional_links  a.musica{
+	background-image: url([[pix:block_gflacso_comunicacion|logos/musica]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links  a.musica{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/musica]]);
+}
+
+.block_gflacso_comunicacion  .additional_links  a.audio{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/microfono]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links  a.audio{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/microfono]]);
+}
+
+.block_gflacso_comunicacion  .additional_links  a.multimedia{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/play_grande]]);
+}
+
+.svg .block_gflacso_comunicacion  .additional_links a.multimedia{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/play_grande]]);
+}
+
+.block_gflacso_comunicacion  .additional_links  a.pregunta{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/mesa-de-ayuda]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links a.pregunta{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/mesa-de-ayuda]]);
+}
+
+.block_gflacso_comunicacion  .additional_links  a.tutorial{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/tutorial]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links a.tutorual{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/tutorial]]);
+}
+
+.block_gflacso_comunicacion  .additional_links a.jitsi{
+	background-size:28px;
+	background-image: url("https://virtual.flacso.org.ar/blocks/gflacso_comunicacion/pix/logos-svg/jitsi.svg");
+}
+.svg .block_gflacso_comunicacion  .additional_links a.jitsi{
+	background-image: url("https://virtual.flacso.org.ar/blocks/gflacso_comunicacion/pix/logos-svg/jitsi.svg");
+}
+
+.block_gflacso_comunicacion  .additional_links a.google_naranja{
+	background-size:28px;
+	background-image: url([[pix:block_gflacso_comunicacion|logos/google_nar]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links a.google_naranja{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/google_nar]]);
+}
+
+.block_gflacso_comunicacion  .additional_links a.google_verde{
+	background-size:28px;
+	background-image: url([[pix:block_gflacso_comunicacion|logos/google_ver]]);
+}
+.svg .block_gflacso_comunicacion  .additional_links a.google_verde{
+	background-image: url([[pix:block_gflacso_comunicacion|logos-svg/google_ver]]);
+}
+
+/** FontAwesome Support **/
+.block_gflacso_comunicacion  .additional_links  a.fontawesome {
+	padding: 8px 0 7px 0px;
+}
+
+.block_gflacso_comunicacion  .additional_links  a.fontawesome:before{
+	font-family: 'Font Awesome\ 5 Free';
+	position: relative;
+    color: white;
+    float:left;
+    display:block;
+    font-size:14px;
+    top: -6px;
+    margin-right: 9px;
+    text-align: center;
+    padding-top: 5px;
+    height: 29px;
+    width: 29px;
+    border-radius: 16px;
+    font-weight: 900;
+    box-sizing: border-box;
+}
+
+/*CALENDARIO*/
+
+.block_gflacso_comunicacion  .additional_links  a.fontawesome.naranja:before{
+	background-color: #dc522a;
+}
+
+.block_gflacso_comunicacion  .additional_links  a.fontawesome.calendario:before{
+	content:"\f073";
+}
+
+/*Instagram*/
+
+.block_gflacso_comunicacion  .additional_links  a.fontawesome.magenta:before{
+	background-color: #ec1858;
+}
+/*
+.block_gflacso_comunicacion  .additional_links  a.fontawesome.instagram:before{
+	content:"\f16d";
+}*/
+
+/*video
+
+.block_gflacso_comunicacion  .additional_links  a.fontawesome.turquesa:before{
+	background-color: #00BDF2;
+}
+
+.block_gflacso_comunicacion  .additional_links  a.fontawesome.video:before{
+	content:"\f008";
+}*/
+
+/*conferencia
+
+
+.block_gflacso_comunicacion  .additional_links  a.fontawesome.conferencia:before{
+	content:"\f0e8";
+}*/
+
+/* Musica*/
+
+.block_gflacso_comunicacion  .additional_links  a.fontawesome.verde:before{
+	background-color: #75B443;
+}
+/*
+.block_gflacso_comunicacion  .additional_links  a.fontawesome.musica:before{
+	content:"\f001";
+}*/
+/*Profesores
+
+.block_gflacso_comunicacion  .additional_links  a.fontawesome.profesores:before{
+	content:"\f51c";
+	font-family: 'FontAwesome';
+}*/
+
+/*Practica
+
+.block_gflacso_comunicacion  .additional_links  a.fontawesome.practica:before{
+	content:"\f303";
+}*/
+
+/*Encuesta
+.block_gflacso_comunicacion  .additional_links  a.fontawesome.encuesta:before{
+	content:"\f46c";
+}*/
+
+/*Linkedin*/
+.block_gflacso_comunicacion  .additional_links  a.fontawesome.linkedin:before{
+	content:"\f0e1";
+	font-family: 'FontAwesome';
+}
+
+/*youtube*/
+.block_gflacso_comunicacion  .additional_links  a.fontawesome.youtube:before{
+	content:"\f04b";
+	background-color: #c4302b;
+}
+
+/************ COPY TO CLIPBOARD ****************/
+.block_gflacso_comunicacion  .additional_links .email {
+	margin-right:16px;
+}
+
+.block_gflacso_comunicacion  .additional_links .copytoclipboard:after {
+	font-family: 'Font Awesome\ 5 Free';
+    float: right;
+    display: block;
+    font-size: 14px;
+    text-align: right;
+    padding-top: 8px;
+    height: 16px;
+    width: 16px;
+    content:"\f0c5";
+    cursor:pointer;
+    color:#999;
+}
